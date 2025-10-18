@@ -299,8 +299,8 @@ function App() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:from-black/40 transition-all duration-300">
                 <div className="absolute bottom-4 left-4">
-                  <h3 className="text-white font-semibold">ダークテーマ建築</h3>
-                  <p className="text-gray-300 text-sm">神秘的な地下都市</p>
+                  <h3 className="text-white font-semibold">サバイバル重視サーバー</h3>
+                  <p className="text-gray-300 text-sm">サバイバルに特化した世界</p>
                 </div>
               </div>
             </div>
@@ -313,8 +313,8 @@ function App() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:from-black/40 transition-all duration-300">
                 <div className="absolute bottom-4 left-4">
-                  <h3 className="text-white font-semibold">未来都市</h3>
-                  <p className="text-gray-300 text-sm">プレイヤーが作った巨大都市</p>
+                  <h3 className="text-white font-semibold">経済重視サーバー</h3>
+                  <p className="text-gray-300 text-sm">現実世界に近い世界</p>
                 </div>
               </div>
             </div>
@@ -369,7 +369,8 @@ function App() {
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-3">ペナルティ</h3>
                   <ul className="space-y-2 list-disc list-inside">
-                    <li>軽微な違反: 警告</li>
+                    <li>軽微な違反: 経済サーバーの牢屋で一定時間過ごしてもらう</li>
+                    <li>繰り返す違反: 警告</li>
                     <li>重大な違反: 一時的なBAN（1日〜1週間）</li>
                     <li>悪質な違反: 永久BAN</li>
                   </ul>
@@ -414,7 +415,8 @@ function App() {
                 </Button>
                 <div className="flex items-center text-gray-400">
                   <Server className="w-4 h-4 mr-2" />
-                  サーバーアドレス: {serverAddress}
+                  サーバーアドレス(java版): {serverAddress}
+                  サーバーアドレス(統合版): {beserverAddress}
                 </div>
               </div>
             </div>
