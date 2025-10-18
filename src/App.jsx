@@ -18,7 +18,7 @@ function App() {
   const [copied, setCopied] = useState(false)
   const [onlineCount, setOnlineCount] = useState(42)
 
-  const beserverAddress = "19.ip.gl.ply.gg:7471"
+  const beserverAddress = "19.ip.gl.ply.gg"
   const serverAddress = "211.ip.gl.ply.gg:41716"
   const discordLink = "https://discord.gg/StjyQaMHAe"
 
@@ -241,17 +241,17 @@ function App() {
                 <div className="bg-black/30 p-4 rounded-lg">
                   <p className="text-sm text-gray-400 mb-2">サーバーアドレス:</p>
                   <div className="flex items-center justify-between bg-gray-700/50 p-3 rounded">
-                    <code className="text-blue-400 font-mono">{serverAddress}</code>
+                    <code className="text-blue-400 font-mono">{beserverAddress}</code>
                     <Button 
                       size="sm" 
                       variant="ghost"
-                      onClick={() => copyToClipboard(serverAddress)}
+                      onClick={() => copyToClipboard(beserverAddress)}
                       className="text-gray-400 hover:text-white"
                     >
                       {copied ? "コピー済み!" : <Copy className="w-4 h-4" />}
                     </Button>
                   </div>
-                  <p className="text-sm text-gray-400 mt-2">ポート: 19132</p>
+                  <p className="text-sm text-gray-400 mt-2">ポート: 7471</p>
                 </div>
                 <div className="space-y-2 text-gray-300">
                   <p>1. Minecraftを起動</p>
