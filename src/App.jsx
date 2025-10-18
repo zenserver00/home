@@ -18,8 +18,9 @@ function App() {
   const [copied, setCopied] = useState(false)
   const [onlineCount, setOnlineCount] = useState(42)
 
-  const serverAddress = "zen.example.com"
-  const discordLink = "https://discord.gg/zenserver"
+  const beserverAddress = "19.ip.gl.ply.gg:7471"
+  const serverAddress = "211.ip.gl.ply.gg:41716"
+  const discordLink = "https://discord.gg/StjyQaMHAe"
 
   const copyToClipboard = (text) => {
     navigator.clipboard.writeText(text)
