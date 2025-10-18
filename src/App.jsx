@@ -16,7 +16,7 @@ import crossplayImage from './assets/search_images/mwbR42sucG3G.jpg'
 
 function App() {
   const [copied, setCopied] = useState(false)
-  const [onlineCount, setOnlineCount] = useState(42)
+  const [onlineCount, setOnlineCount] = useState(1)
 
   const beserverAddress = "19.ip.gl.ply.gg"
   const serverAddress = "211.ip.gl.ply.gg:41716"
