@@ -19,7 +19,7 @@ function App() {
   const [onlineCount, setOnlineCount] = useState(1)
 
   const beserverAddress = "zenserver.ddo.jp"
-  const serverAddress = "zenserver.ddo.jp:19132"
+  const serverAddress = "zenserver.ddo.jp"
   const discordLink = "https://discord.gg/StjyQaMHAe"
 
   const copyToClipboard = (text) => {
@@ -251,7 +251,7 @@ function App() {
                       {copied ? "コピー済み!" : <Copy className="w-4 h-4" />}
                     </Button>
                   </div>
-                  <p className="text-sm text-gray-400 mt-2">ポート: 7471</p>
+                  <p className="text-sm text-gray-400 mt-2">ポート: 19132</p>
                 </div>
                 <div className="space-y-2 text-gray-300">
                   <p>1. Minecraftを起動</p>
